@@ -5,7 +5,7 @@ import os
 import time 
 
 #In[5] Step 3: convert observations to lane performance files 
-def joinDemandPeriod (period_list,performance_file_name='link_performance.csv',output_folder='./'):
+def joinDemandPeriod (period_list,performance_file_name='measurements.csv',output_folder='./'):
     data_df=pd.read_csv(performance_file_name,encoding='UTF-8')
     
     print("---Join Demand Periods---")

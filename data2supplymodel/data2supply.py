@@ -426,7 +426,7 @@ def _getTimeVaryingQueue(calibration_period_vdf_daily_link_results,free_flow_spe
 
 
 
-def calibrateFundamentalDiagram(ft_list='all', at_list='all',link_performance_file='link_performance.csv'):
+def calibrateFundamentalDiagram(ft_list='all', at_list='all',link_performance_file='measurements.csv'):
     output_folder='output_fundametnal_diagrams'
     _mkdir(output_folder)
 
